@@ -1,6 +1,6 @@
 function ClassCard({ code, teacher, due, problem }) {
     return (
-      <div className="bg-white shadow-md rounded-lg overflow-hidden">
+      <div className=" bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-all cursor-pointer">
         {/* Header Section */}
         <div className="bg-orange-500 text-white p-4">
           <div className="flex flex-col">
@@ -19,9 +19,9 @@ function ClassCard({ code, teacher, due, problem }) {
         </div>
   
         {/* Content Section */}
-        <div className="p-6">
+        <div className="p-10 relative">
           {/* Text Section */}
-          <div>
+          <div className="absolute top-0 left-6">
             <p className="text-gray-600 text-sm">{due}</p>
             <p className="text-gray-800 font-semibold text-base">{problem}</p>
           </div>

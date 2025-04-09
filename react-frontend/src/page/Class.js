@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import Sidebar from '../components/Sidebar';
 import ClassCard from '../components/ClassCard';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import ClassCard_Other from "../components/ClassCard_Other";
 
 function Class() {
@@ -20,7 +20,7 @@ function Class() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Header />
+      <Navbar />
       <div className="flex h-screen">
         <Sidebar />
         <div className="flex-1 flex flex-col p-20">

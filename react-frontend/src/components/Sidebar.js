@@ -2,7 +2,7 @@ import { FaUser, FaBook } from 'react-icons/fa'; // นำเข้าไอค�
 
 function Sidebar() {
   return (
-    <div className="w-64 bg-white shadow-md h-full  p-4">
+    <div className="w-64 h-full bg-white shadow-md  p-4">
       {/* TEACHING Section */}
       <div className="mb-6">
         <div className="flex items-center mb-2 bg-blue-600 px-2 py-3 rounded">
@@ -38,7 +38,7 @@ function Sidebar() {
       </div>
 
       {/* ENROLLED Section */}
-      <div>
+     
         <div className="flex items-center mb-2 bg-blue-600 px-2 py-3 rounded">
           <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center mr-2">
             <FaBook className="text-blue-600 w-4 h-4" />
@@ -92,7 +92,7 @@ function Sidebar() {
           </li>
         </ul>
       </div>
-    </div>
+    
   );
 }
 
