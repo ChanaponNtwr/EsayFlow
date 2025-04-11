@@ -12,6 +12,7 @@ import "./index.css";
 // import Login from "./page/Login";
 // import Register from "./page/Register";
 import Class from "./page/Class"; // วิธีนี้ใช้เมื่อ Home.js มี export default
+import Classwork from "./page/Classwork";
 import reportWebVitals from "./reportWebVitals";
 
 
@@ -30,6 +31,7 @@ const AppLayout = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} /> */}
           <Route path="/Class" element={<Class />} />
+          <Route path="/Classwork" element={<Classwork />} />
           {/* <Route path="/myingredient" element={<Myingredient />} />
           <Route path="/editingredient" element={<Editingredient />} />
           <Route path="/foodallergies" element={<Foodallergies />} />
