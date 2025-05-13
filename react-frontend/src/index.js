@@ -15,6 +15,7 @@ import Class from "./page/Class"; // วิธีนี้ใช้เมื่�
 import Classwork from "./page/Classwork";
 import Createlab from "./page/Createlab";
 import reportWebVitals from "./reportWebVitals";
+import Lab from "./page/Lab";
 
 
 
@@ -34,6 +35,7 @@ const AppLayout = () => {
           <Route path="/Class" element={<Class />} />
           <Route path="/Classwork" element={<Classwork />} />
           <Route path="/Createlab" element={<Createlab />} />
+          <Route path="/Lab" element={<Lab />} />
           {/* <Route path="/myingredient" element={<Myingredient />} />
           <Route path="/editingredient" element={<Editingredient />} />
           <Route path="/foodallergies" element={<Foodallergies />} />
