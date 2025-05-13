@@ -16,6 +16,7 @@ import Classwork from "./page/Classwork";
 import Createlab from "./page/Createlab";
 import reportWebVitals from "./reportWebVitals";
 import Lab from "./page/Lab";
+import Login from "./page/Login";
 
 
 
@@ -36,6 +37,7 @@ const AppLayout = () => {
           <Route path="/Classwork" element={<Classwork />} />
           <Route path="/Createlab" element={<Createlab />} />
           <Route path="/Lab" element={<Lab />} />
+          <Route path="/Login" element={<Login />} />
           {/* <Route path="/myingredient" element={<Myingredient />} />
           <Route path="/editingredient" element={<Editingredient />} />
           <Route path="/foodallergies" element={<Foodallergies />} />
