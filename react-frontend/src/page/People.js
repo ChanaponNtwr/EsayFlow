@@ -15,7 +15,7 @@ function People() {
             
           {/* Tabs */}
           <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
-          "Hello hiii"
+          "Hello hiiiii sawatdeee"
 
         </div>
       </div>
