@@ -17,6 +17,7 @@ import Createlab from "./page/Createlab";
 import reportWebVitals from "./reportWebVitals";
 import Lab from "./page/Lab";
 import Login from "./page/Login";
+import People from "./page/People";
 
 
 
@@ -38,6 +39,7 @@ const AppLayout = () => {
           <Route path="/Createlab" element={<Createlab />} />
           <Route path="/Lab" element={<Lab />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/People" element={<People />} />
           {/* <Route path="/myingredient" element={<Myingredient />} />
           <Route path="/editingredient" element={<Editingredient />} />
           <Route path="/foodallergies" element={<Foodallergies />} />
